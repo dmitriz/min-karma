@@ -16,4 +16,15 @@ Karma - a test runner that fits all our needs.
 - Minimal testing example.
 
 ## Install
-- ...
+Create new directory:
+```sh
+mkdir new-directory && cd new-directory
+```
+Install the package:
+```sh
+npm install min-karma
+```
+That's it.
+
+## Getting started
+
