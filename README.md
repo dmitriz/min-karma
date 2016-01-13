@@ -22,7 +22,7 @@ mkdir new-directory && cd new-directory
 ```
 Install the package:
 ```sh
-npm install min-karma
+npm install min-karma --save
 ```
 That's it.
 
