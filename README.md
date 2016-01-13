@@ -29,7 +29,7 @@ That's it.
 ## Getting started
 Run your tests:
 ```sh
-npm test
+karma start
 ```
 Now try to edit files inside `src` folder and see how karma is watching and updating your test results.
 
