@@ -4,8 +4,9 @@
   "description": "Minimal karma runner setup",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dmitriz"
+    "url": "https://github.com/dmitriz/min-karma"
   },
+  "files": ["karma.conf.js", "src"],
   "scripts": {
     "test": "karma start"
   },
