@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "name": "min-karma",
-  "description": "Minimal karma setup",
+  "description": "Minimal karma runner setup",
   "repository": {
     "type": "git",
     "url": "https://github.com/dmitriz"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "karma start"
   },
-  "keywords": ["karma", "jasmine", "testing"],
+  "keywords": ["karma", "jasmine", "testing", "test", "runner"],
   "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
   "license": "MIT",
   "devDependencies": {
