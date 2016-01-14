@@ -21,7 +21,7 @@ git clone https://github.com/dmitriz/min-karma
 npm install --save-dev
 ```
 
-## Or install directly (currently TODO)
+## Or install directly
 Create new directory:
 ```sh
 mkdir new-directory && cd new-directory
