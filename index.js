@@ -12,6 +12,8 @@ var packagePath = path.resolve();
 
 // Moving files to the local directory
 var filesToCopy = ['karma.conf.js', 'src'];
+console.log("trying to copy files...", filesToCopy);
+
 filesToCopy.forEach(function(file){
 	// testing
 	// cp('-R',  file, packagePath + '/dist');
