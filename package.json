@@ -2,17 +2,24 @@
   "version": "0.1.2",
   "name": "min-karma",
   "description": "Minimal karma runner setup",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/dmitriz/min-karma"
+  },
+  "author": {
+    "name": "Dmitri Zaitsev",
+    "email": "dmitri14@gmail.com",
+    "url": "https://github.com/dmitriz"
+  },
+  "scripts": {
+    "test": "karma start"
   },
   "files": [
     "karma.conf.js",
     "src"
   ],
-  "scripts": {
-    "test": "karma start"
-  },
+  "postinstall": "node index.js",
   "keywords": [
     "karma",
     "jasmine",
@@ -20,9 +27,8 @@
     "test",
     "runner"
   ],
-  "author": "Dmitri Zaitsev <dmitri14@gmail.com> (https://github.com/dmitriz)",
-  "license": "MIT",
   "dependencies": {
+    "cpy": "^4.0.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
