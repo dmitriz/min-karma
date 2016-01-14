@@ -30,11 +30,11 @@
     "runner"
   ],
   "dependencies": {
-    "cpy": "^4.0.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
-    "karma-jasmine": "^0.3.6"
+    "karma-jasmine": "^0.3.6",
+    "shelljs": "^0.5.3"
   },
   "bugs": {
     "url": "https://github.com/dmitriz/min-karma/issues"

@@ -4,14 +4,28 @@ var path = require('path');
 var fs = require('fs');
 //var cpy = require('cpy');
 
+require('shelljs/global');
+
+
 // Current directory inside the package
 var packagePath = path.resolve();
 
-var filesToCopy = ['karma*', 'src'];
+console.log(packagePath);
 
-var sourceFile = 'one';
-var targetFile = 'two';
+var filesToCopy = [
+	'karma.conf.js', 
+	'src/add.js',
+	'src/add_test.js'
+];
 
+filesToCopy.forEach(function(file){
+	//fs.writeFileSync('dist/' + file, fs.readFileSync(file));
+
+	// copy file to current directory
+	//cp('-R', path.resolve(packagePath, file), '.');
+	cp('-R',  './' + file, packagePath);
+	console.log('Copying', file); 
+});
 
 // Moving files to the local directory
 
@@ -19,6 +33,6 @@ var targetFile = 'two';
 // 	console.log(result, 'files copied');
 // });
 
-fs.writeFileSync(targetFile, fs.readFileSync(sourceFile));
+//fs.writeFileSync(targetFile, fs.readFileSync(sourceFile));
 
 //fs.createReadStream(packagePath + '/karma.conf.js').pipe(fs.createWriteStream('karma.conf.js'));
