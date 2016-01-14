@@ -18,7 +18,7 @@ var userPath = "../..";
 console.log("packagePath is", packagePath);
 
 // Moving files to the local directory
-var filesToCopy = ['karma.conf.js', 'src'];
+var filesToCopy = ['./karma.conf.js', 'src'];
 console.log("trying to copy files...", filesToCopy, userPath);
 
 filesToCopy.forEach(function(file){
