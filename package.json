@@ -13,7 +13,8 @@
     "url": "https://github.com/dmitriz"
   },
   "scripts": {
-    "test": "karma start"
+    "test": "karma start",
+    "postinstall": "node index.js",
   },
   "main": "index.js",
   "files": [
@@ -21,7 +22,6 @@
     "index.js",
     "src"
   ],
-  "postinstall": "node index.js",
   "keywords": [
     "karma",
     "jasmine",
