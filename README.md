@@ -21,13 +21,14 @@ git clone https://github.com/dmitriz/min-karma
 npm install --save-dev
 ```
 
-## Or install directly
+## Or install with `npm`
 Create new directory:
 ```sh
 mkdir new-directory && cd new-directory
 ```
 Install the package:
 ```sh
+npm init -y
 npm install min-karma --save
 ```
 That's it.
