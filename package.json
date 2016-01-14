@@ -15,8 +15,10 @@
   "scripts": {
     "test": "karma start"
   },
+  "main": "index.js",
   "files": [
     "karma.conf.js",
+    "index.js",
     "src"
   ],
   "postinstall": "node index.js",
@@ -33,5 +35,8 @@
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6"
+  },
+  "bugs": {
+    "url": "https://github.com/dmitriz/min-karma/issues"
   }
 }
