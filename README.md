@@ -15,7 +15,13 @@ Karma - a test runner that fits all our needs.
 - Minimal functional Karma config file.
 - Minimal testing example.
 
-## Install
+## Clone and install dependencies
+```sh
+git clone https://github.com/dmitriz/min-karma
+npm install --save-dev
+```
+
+## Or install directly (currently TODO)
 Create new directory:
 ```sh
 mkdir new-directory && cd new-directory
