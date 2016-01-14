@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "karma start",
-    "postinstall": "node index.js",
+    "postinstall": "node index.js"
   },
   "main": "index.js",
   "files": [
