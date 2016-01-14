@@ -9,9 +9,10 @@ require('shelljs/global');
 
 // Current directory inside the package
 var packagePath = path.resolve();
+var packagePath = __dirname;
 
 // Current directory of the user
-var userPath = __dirname;
+var userPath = process.env.PWD;
 
 
 console.log("packagePath is", packagePath);
