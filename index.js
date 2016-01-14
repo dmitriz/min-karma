@@ -12,7 +12,7 @@ var packagePath = path.resolve();
 var packagePath = __dirname;
 
 // Current directory of the user
-var userPath = process.env.PWD;
+var userPath = "../../";
 
 
 console.log("packagePath is", packagePath);
