@@ -17,6 +17,6 @@ console.log("trying to copy files...", filesToCopy);
 filesToCopy.forEach(function(file){
 	// testing
 	// cp('-R',  file, packagePath + '/dist');
-	cp('-R', file, packagePath);
 	console.log('Copying', file); 
+	cp('-R', file, '.');
 });
