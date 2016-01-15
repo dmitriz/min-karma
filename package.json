@@ -14,7 +14,7 @@
   "scripts": {
     "start": "karma start",
     "test": "karma start",
-    "complete": "git ac && git push && npm version patch && npm publish",
+    "complete": "git push && npm version patch && npm publish",
     "postinstall": "node index.js"
   },
   "main": "index.js",
