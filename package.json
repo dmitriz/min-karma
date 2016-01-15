@@ -50,5 +50,7 @@
     "url": "https://github.com/dmitriz/min-karma/issues"
   },
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "codecov.io": "^0.1.6"
+  }
 }
