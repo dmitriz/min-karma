@@ -1,6 +1,6 @@
 {
   "name": "min-karma",
-  "version": "0.1.27",
+  "version": "0.2.0",
   "description": "Minimal karma runner setup",
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "runner"
   ],
   "dependencies": {
+    "cross-spawn-async": "^2.1.6",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6",
