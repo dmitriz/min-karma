@@ -1,5 +1,6 @@
-# min-karma [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+# min-karma [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![bitHound Dependencies](https://www.bithound.io/github/dmitriz/min-karma/badges/dependencies.svg)](https://www.bithound.io/github/dmitriz/min-karma/master/dependencies/npm)
 Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-karma) &mdash; Start testing now!
+
 
 ## Karma
 [Karma](http://karma-runner.github.io/0.13/index.html) is a JavaScript Test Runner, one of the most popular and friendliest for beginners.
@@ -7,10 +8,12 @@ Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-k
 > On the AngularJS team, we rely on testing and we always seek better tools to make our life easier. That's why we created
 Karma - a test runner that fits all our needs.
 
+
 ## Why?
 - Most setups are bloated with unnecessary options and packages.
 - Start clean and minimal and extend as you go.
 - Add single package to your project instead of many, to get your tests up and running.
+
 
 ## Features
 - Minimal functional Karma config file.

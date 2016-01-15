@@ -42,7 +42,8 @@
       "expect",
       "it",
       "beforeEach",
-      "angular"
+      "angular",
+      "document"
     ]
   },
   "bugs": {
