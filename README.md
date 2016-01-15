@@ -1,5 +1,5 @@
 # min-karma
-Minimal Karma Runner Setup and Package --- Start testing now!
+Minimal Karma runner Setup and Package --- Start testing now!
 
 ## Karma
 [Karma](http://karma-runner.github.io/0.13/index.html) is a JavaScript Test Runner, one of the most popular and friendliest for beginners.
