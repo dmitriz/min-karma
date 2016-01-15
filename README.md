@@ -20,9 +20,21 @@ Karma - a test runner that fits all our needs.
   - Minimal functional configuration file `karma.conf.js` with comments.
   - Basic testing example is automatically copied to your directory.
 
-## Karma setup: Clone and install dependencies
+
+## If you are new to Node
+[Download and Install Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) for more information.
+
+
+## Karma setup: 
+### Clone
 ```sh
 git clone https://github.com/dmitriz/min-karma
+```
+or simply [Download this Repository](https://github.com/dmitriz/min-karma/archive/master.zip),
+unzip it and `cd min-karma-master`.
+
+### Install dependencies
+```sh
 npm install --save-dev
 ```
 
