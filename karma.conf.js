@@ -1,6 +1,6 @@
 // karma.conf.js
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     // frameworks available: https://npmjs.org/browse/keyword/karma-adapter
@@ -22,6 +22,6 @@ module.exports = function(config) {
     // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
     // - PhantomJS
     // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-    browsers: ['Chrome'],
-  });
-};
+    browsers: ['Chrome']
+  })
+}

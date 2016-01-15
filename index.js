@@ -6,21 +6,18 @@
  * Currently: copying selected files to user's directory
  */
 
-var path = require('path');
-var fs = require('fs');
-
 // import shell tools for global access
 // https://github.com/shelljs/shelljs#javascript
-require('shelljs/global');
+require('shelljs/global')
 
 // TODO: Find a more robust solution
 // Current user directory
-var userPath = "../../";
+var userPath = '../../'
 
 // Moving files to the local directory
-var filesToCopy = ['karma.conf.js', 'examples'];
+var filesToCopy = ['karma.conf.js', 'examples']
 
-filesToCopy.forEach(function(file){
-	console.log('Copying file: ', file); 
-	cp('-R', file, userPath);
-});
+filesToCopy.forEach(function (file) {
+  console.log('Copying file: ', file)
+  cp('-R', file, userPath)
+})
