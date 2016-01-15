@@ -1,5 +1,5 @@
 # min-karma
-Minimal Karma runner *Setup* and *Package* &mdash; Start testing now!
+Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-karma) &mdash; Start testing now!
 
 ## Karma
 [Karma](http://karma-runner.github.io/0.13/index.html) is a JavaScript Test Runner, one of the most popular and friendliest for beginners.
