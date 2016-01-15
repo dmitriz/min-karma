@@ -19,6 +19,6 @@ var userPath = '../../'
 var filesToCopy = ['karma.conf.js', 'examples']
 
 filesToCopy.forEach(function (file) {
-  console.log('Copying file: ', file)
+  console.log('Copying file or directory: ', file)
   cp('-R', file, userPath)
 })
