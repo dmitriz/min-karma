@@ -1,4 +1,5 @@
 // add_test.js
+/* globals add */
 
 describe('Addition', function () {
   it('should add numbers', function () {

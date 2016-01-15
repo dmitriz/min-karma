@@ -38,8 +38,17 @@
     "karma-jasmine": "^0.3.6",
     "shelljs": "^0.5.3"
   },
+  "standard": {
+    "globals": [
+      "describe",
+      "expect",
+      "it",
+      "angular"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/dmitriz/min-karma/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {}
 }

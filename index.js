@@ -1,4 +1,5 @@
 // index.js
+/* globals cp */
 
 /*
  * Script to run after npm install
