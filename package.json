@@ -1,6 +1,6 @@
 {
   "name": "min-karma",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "description": "Minimal karma runner setup",
   "repository": {
     "type": "git",
