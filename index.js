@@ -9,7 +9,7 @@
 
 // import shell tools for global access
 // https://github.com/shelljs/shelljs#javascript
-require('shelljs/global')
+//require('shelljs/global')
 var spawn = require('cross-spawn-async')
 
 // TODO: Find a more robust solution
@@ -24,6 +24,6 @@ filesToCopy.forEach(function (file) {
 
   // cp is defined through shelljs
   //cp('-R', file, userPath)
-	spawn('cp', [file, __dirname], {stdio: 'inherit'})
+  spawn('cp', [file, userPath], {stdio: 'inherit'})
 
 })
