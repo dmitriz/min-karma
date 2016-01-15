@@ -25,7 +25,7 @@ Karma - a test runner that fits all our needs.
 [Download and Install Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) for more information.
 
 
-## Karma setup: 
+## To use as Repository: 
 ### Clone
 ```sh
 git clone https://github.com/dmitriz/min-karma
@@ -38,7 +38,7 @@ unzip it and `cd min-karma-master`.
 npm install --save-dev
 ```
 
-## Package `min-karma` &mdash; install with `npm`
+## To use as Package:
 In your main project directory (should contain `package.json`):
 ```sh
 npm install min-karma --save
