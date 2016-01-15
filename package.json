@@ -19,7 +19,7 @@
   "files": [
     "karma.conf.js",
     "index.js",
-    "src"
+    "examples"
   ],
   "keywords": [
     "karma",
