@@ -51,6 +51,6 @@ describe('Addition', function(){
 });
 ```
 
-**Tip.** Keep your tests next to their testees for better [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)). 
+**Tip.** Keep your tests next to their testees for better [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)). Avoid putting them into separate folders away from your code.
 
 Enjoy!
