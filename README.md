@@ -16,9 +16,9 @@ Karma - a test runner that fits all our needs.
 - Minimal functional Karma config file.
 - Use as *repository* (`git clone`) or *package* (`npm install`).
 - Installs all testing packages as dependencies, no need to install them manually.
-- Automatically copied to your directory (using ):
- - Minimal functional configuration file `karma.conf.js` with comments
- - Basic testing example is automatically copied to your directory.
+- Automatically copied to your directory (using [`shelljs](https://www.npmjs.com/package/shelljs)):
+  - Minimal functional configuration file `karma.conf.js` with comments.
+  - Basic testing example is automatically copied to your directory.
 
 ## Karma setup: Clone and install dependencies
 ```sh
