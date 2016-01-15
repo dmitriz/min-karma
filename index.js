@@ -15,7 +15,7 @@ require('shelljs/global');
 
 // TODO: Find a more robust solution
 // Current user directory
-var userPath = "../..";
+var userPath = "../../";
 
 // Moving files to the local directory
 var filesToCopy = ['karma.conf.js', 'examples'];
