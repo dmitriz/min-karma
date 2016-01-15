@@ -55,16 +55,16 @@ Now try to edit files inside `examples` folder and see how karma is watching and
 ```js
 // function to test
 function add (a, b) {
-	return a + b;
+	return a + b
 }
 
 // the test
-describe('Addition', function(){
-	it('should add numbers', function(){
-		expect(add(2,4)).toBe(6);
-		expect(add(2,4)).not.toBe(2);
-	});
-});
+describe('Addition', function () {
+	it('should add numbers', function () {
+		expect(add(2, 4)).toBe(6)
+		expect(add(2, 4)).not.toBe(2)
+	})
+})
 ```
 
 **Tip.** Keep your tests next to their testees for better [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)). Avoid putting them into separate folders (like `tests`) away from your code.
