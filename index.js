@@ -1,5 +1,11 @@
 // index.js
 
+/*
+ * Script to run after npm install
+ *
+ * Currently: copying selected files to user's directory
+ */
+
 var path = require('path');
 var fs = require('fs');
 
@@ -12,9 +18,9 @@ require('shelljs/global');
 var userPath = "../..";
 
 // Moving files to the local directory
-var filesToCopy = ['karma.conf.js', 'src'];
+var filesToCopy = ['karma.conf.js', 'examples'];
 
 filesToCopy.forEach(function(file){
-	console.log('Copying', file); 
+	console.log('Copying file: ', file); 
 	cp('-R', file, userPath);
 });
