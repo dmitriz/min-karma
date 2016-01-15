@@ -1,5 +1,5 @@
 # min-karma
-Minimal Karma Runner Setup and Package -- Start testing now!
+Minimal Karma Runner Setup and Package --- Start testing now!
 
 ## Karma
 [Karma](http://karma-runner.github.io/0.13/index.html) is a JavaScript Test Runner, one of the most popular and friendliest for beginners.
@@ -24,7 +24,7 @@ git clone https://github.com/dmitriz/min-karma
 npm install --save-dev
 ```
 
-## Package `min-karma` -- install with `npm`
+## Package `min-karma` --- install with `npm`
 In your main project directory (should contain `package.json`):
 ```sh
 npm install min-karma --save
@@ -37,7 +37,7 @@ karma start
 ```
 Now try to edit files inside `examples` folder and see how karma is watching and updating your test results.
 
-## Basic testing example -- inside `examples` folder
+## Basic testing example --- inside `examples` folder
 ```js
 // function to test
 function add (a, b) {
@@ -53,6 +53,6 @@ describe('Addition', function(){
 });
 ```
 
-**Tip.** Keep your tests next to their testees for better [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)). Avoid putting them into separate folders away from your code.
+**Tip.** Keep your tests next to their testees for better [cohesion](https://en.wikipedia.org/wiki/Cohesion_(computer_science)). Avoid putting them into separate folders (like `tests`) away from your code.
 
 Enjoy!
