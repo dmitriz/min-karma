@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "karma start",
+    "test": "karma start",
     "complete": "npm version patch && npm publish",
     "prepublish": "git pull --rebase && git push",
     "postinstall": "node index.js"
