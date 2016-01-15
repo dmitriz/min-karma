@@ -12,6 +12,7 @@
     "url": "https://github.com/dmitriz"
   },
   "scripts": {
+    "start": "karma start",
     "test": "karma start",
     "postinstall": "node index.js"
   },
