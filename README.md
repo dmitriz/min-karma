@@ -8,13 +8,15 @@ Minimal Karma Runner Setup and Package -- Start testing now!
 Karma - a test runner that fits all our needs.
 
 ## Why?
-- Most setups are bloated with unnecessary options.
+- Most setups are bloated with unnecessary options and packages.
 - Start clean and minimal and extend as you go.
+- Install one package instead of many to get your tests up and running.
 
 ## Features
 - Minimal functional Karma config file.
 - Minimal testing example.
-- Use as repository (`git clone`) or package (`npm install`). 
+- Use as repository (`git clone`) or package (`npm install`).
+- Installs all testing packages as dependencies, no need to install them manually.
 
 ## Karma setup: Clone and install dependencies
 ```sh
@@ -22,7 +24,7 @@ git clone https://github.com/dmitriz/min-karma
 npm install --save-dev
 ```
 
-## Package `min-karma`: Install with `npm`
+## Package `min-karma` -- install with `npm`
 In your main project directory (should contain `package.json`):
 ```sh
 npm install min-karma --save
