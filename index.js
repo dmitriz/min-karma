@@ -20,5 +20,7 @@ var filesToCopy = ['karma.conf.js', 'examples']
 
 filesToCopy.forEach(function (file) {
   console.log('Copying file or directory: ', file)
+
+  // cp is defined through shelljs
   cp('-R', file, userPath)
 })
