@@ -1,6 +1,6 @@
 {
   "name": "min-karma",
-  "version": "0.1.27",
+  "version": "0.2.2",
   "description": "Minimal karma runner setup",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "karma start",
-    "pub": "npm version patch && npm publish",
+    "pub": "npm version patch && npm publish && git push",
     "sync": "git ac && git pull --rebase && git push",
     "postinstall": "node index.js"
   },
