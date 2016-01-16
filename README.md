@@ -10,10 +10,13 @@ Karma - a test runner that fits all our needs.
 
 
 ## Why?
-- Most setups are bloated with unnecessary options and packages.
+- Many setups are bloated with unnecessary options and packages.
 - Start clean and minimal and extend as you go.
 - Add single package to your project instead of many, to get your tests up and running.
 
+## Use cases
+- You have a project and want to add unit/integration/whatever tests.
+- You want to check and play with Karma runner in a clean folder.
 
 ## Features
 - Minimal functional Karma config file.
@@ -21,14 +24,14 @@ Karma - a test runner that fits all our needs.
 - Installs all testing packages as dependencies, no need to install them manually.
 - Automatically copied to your directory (using [`shelljs](https://www.npmjs.com/package/shelljs)):
   - Minimal functional configuration file `karma.conf.js` with comments.
-  - Basic testing example is automatically copied to your directory.
+  - Basic testing example in the `examples` folder.
 
 
 ## If you are new to Node
 [Download and Install Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) for more information.
 
 
-## To use as Repository: 
+## To use as separate Repository: 
 ### Clone
 ```sh
 git clone https://github.com/dmitriz/min-karma
@@ -41,7 +44,7 @@ unzip it and `cd min-karma-master`.
 npm install --save-dev
 ```
 
-## To use as Package:
+## To use as Package (add to your project):
 In your main project directory (should contain `package.json`):
 ```sh
 npm install min-karma --save
