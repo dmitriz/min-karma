@@ -51,6 +51,5 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "codecov.io": "^0.1.6"
   }
 }
