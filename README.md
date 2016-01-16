@@ -15,8 +15,8 @@ Karma - a test runner that fits all our needs.
 - Add single package to your project instead of many, to get your tests up and running.
 
 ## Use cases
-- You have a project and want to add unit/integration/whatever tests.
-- You want to check and play with Karma runner in a clean folder.
+- You have a project and want to add unit/integration/whatever tests &mdash; [install the package](#to-use-as-separate-repository).
+- You want to quickly evaluate Karma runner and play with in a clean folder &mdash; [clone or download the repository](#to-use-as-separate-repository).
 
 ## Features
 - Minimal functional Karma config file.
