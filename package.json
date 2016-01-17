@@ -1,6 +1,6 @@
 {
   "name": "min-karma",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Minimal karma runner setup",
   "repository": {
     "type": "git",
@@ -50,6 +50,5 @@
     "url": "https://github.com/dmitriz/min-karma/issues"
   },
   "license": "MIT",
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
