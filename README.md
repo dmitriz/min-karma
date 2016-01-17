@@ -25,6 +25,7 @@ Karma - a test runner that fits all our needs.
 - Automatically and gracefully (without overwriting) copied to your project directory:
   - Basic testing example in the `examples` folder.
   - Minimal functional configuration file `karma.conf.js`:
+
 		```js
 		module.exports = function (config) {
 		  config.set({
