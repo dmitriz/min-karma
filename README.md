@@ -26,17 +26,17 @@ Karma - a test runner that fits all our needs.
   - Basic testing example in the `examples` folder.
   - Minimal functional configuration file `karma.conf.js`:
 
-		```js
-		module.exports = function (config) {
-		  config.set({
-		    frameworks: ['jasmine'],
-		    files: [
-		      'examples/**/*.js'
-		    ],
-		    browsers: ['Chrome']
-		  })
-		}
-		```
+```js
+module.exports = function (config) {
+  config.set({
+    frameworks: ['jasmine'],
+    files: [
+      'examples/**/*.js'
+    ],
+    browsers: ['Chrome']
+  })
+}
+```
 
 ## If you are new to Node
 [Download and Install Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) for more information.
