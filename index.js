@@ -7,8 +7,8 @@
  */
 
 // https://github.com/shelljs/shelljs#javascript
-//var shells = require('shelljs')
-var cpy = require('cpy')
+var shells = require('shelljs')
+//var cpy = require('cpy')
 
 // Current user directory
 // Warning: This assumes the package is installed into `node_modules/<package-name>/`
@@ -20,6 +20,6 @@ var filesToCopy = ['karma.conf.js', 'examples']
 
 filesToCopy.forEach(function (file) {
   console.log('Copying file or directory: ', file)
-//  shells.cp('-R', file, userPath)
-	cpy(file, userPath);
+  shells.cp('-R', file, userPath)
+//	cpy(file, userPath);
 })
