@@ -16,7 +16,7 @@ var shells = require('shelljs')
 var userPath = '../../'
 
 // Moving files to user's local directory
-var filesToCopy = ['karma.conf.js', 'examples']
+var filesToCopy = ['karma.conf.js', 'demo']
 
 filesToCopy.forEach(function (file) {
   console.log('Copying file or directory: ', file)

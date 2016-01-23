@@ -19,9 +19,9 @@
   },
   "main": "index.js",
   "files": [
-    "karma.conf.js",
     "index.js",
-    "examples"
+    "karma.conf.js",
+    "demo"
   ],
   "keywords": [
     "karma",

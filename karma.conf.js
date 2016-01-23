@@ -10,8 +10,8 @@ module.exports = function (config) {
     // Tip. Keep your tests next to testees for better cohesion
     files: [
 
-      // load all `.js` files inside `examples`
-      'examples/**/*.js'
+      // load all `.js` files inside `demo`
+      'demo/**/*.js'
     ],
 
     // Browsers, currently available:

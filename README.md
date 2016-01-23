@@ -23,7 +23,7 @@ Karma - a test runner that fits all our needs.
 - Use as *repository* (`git clone`) or *package* (`npm install`).
 - Installs all testing packages as dependencies, no need to install them manually.
 - Automatically and gracefully (without overwriting) copied to your project directory:
-  - Basic testing example in the `examples` folder.
+  - Basic testing example in the `demo` folder.
   - Minimal functional configuration file `karma.conf.js`:
 
 		```js
@@ -31,7 +31,7 @@ Karma - a test runner that fits all our needs.
 		  config.set({
 		    frameworks: ['jasmine'],
 		    files: [
-		      'examples/**/*.js'
+		      'demo/**/*.js'
 		    ],
 		    browsers: ['Chrome']
 		  })
