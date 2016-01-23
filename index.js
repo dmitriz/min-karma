@@ -3,10 +3,9 @@
 /*
  * Script to run after npm install
  *
- * Currently: copying selected files to user's directory
+ * Copy selected files to user's directory
  */
 
-// https://github.com/shelljs/shelljs#javascript
 var shells = require('shelljs')
 //var cpy = require('cpy')
 
@@ -20,6 +19,8 @@ var filesToCopy = ['karma.conf.js', 'demo']
 
 filesToCopy.forEach(function (file) {
   console.log('Copying file or directory: ', file)
+
+	// https://github.com/shelljs/shelljs#javascript
   shells.cp('-R', file, userPath)
-//	cpy(file, userPath);
+	//	cpy(file, userPath);
 })
