@@ -31,10 +31,10 @@
     "runner"
   ],
   "dependencies": {
+    "gently-copy": "0.0.4",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
-    "karma-jasmine": "^0.3.6",
-    "shelljs": "^0.5.3"
+    "karma-jasmine": "^0.3.6"
   },
   "standard": {
     "globals": [

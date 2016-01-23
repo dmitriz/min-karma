@@ -6,21 +6,16 @@
  * Copy selected files to user's directory
  */
 
-var shells = require('shelljs')
-//var cpy = require('cpy')
+'use strict'
 
-// Current user directory
+var gentlyCopy = require('gently-copy')
+
+var filesToCopy = ['karma.conf.js', 'demo']
+
+// User's local directory
 // Warning: This assumes the package is installed into `node_modules/<package-name>/`
 // TODO: Find a more robust solution
 var userPath = '../../'
 
 // Moving files to user's local directory
-var filesToCopy = ['karma.conf.js', 'demo']
-
-filesToCopy.forEach(function (file) {
-  console.log('Copying file or directory: ', file)
-
-	// https://github.com/shelljs/shelljs#javascript
-  shells.cp('-R', file, userPath)
-	//	cpy(file, userPath);
-})
+gentlyCopy(filesToCopy, userPath)
