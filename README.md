@@ -23,7 +23,7 @@ Karma - a test runner that fits all our needs.
 - Use as *repository* (`git clone`) or *package* (`npm install`).
 - Installs all testing packages as dependencies, no need to install them manually.
 - Automatically and gracefully (without overwriting) copied to your project directory:
-  - Basic testing example in the `demo` folder.
+  - Basic testing example inside `demo` folder.
   - Minimal functional configuration file `karma.conf.js`:
 
 		```js
@@ -66,9 +66,9 @@ Run your tests:
 ```sh
 karma start
 ```
-Now try to edit files inside `examples` folder and see how karma is watching and updating your test results.
+Now try to edit files inside `demo` folder and see how karma is watching and updating your test results.
 
-## Basic testing example &mdash; inside `examples` folder
+## Basic testing demo &mdash; inside `demo` folder
 ```js
 // function to test
 function add (a, b) {
