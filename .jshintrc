@@ -1,4 +1,8 @@
 {
-  // The Good Parts.
-  "asi": true,  // Tolerate Automatic Semicolon Insertion (no semicolons).
+  "asi"           : true,   // Tolerate Automatic Semicolon Insertion (no semicolons).
+  "strict"        : false,  // Require `use strict` pragma  in every file.
+  "globalstrict"  : true,   // Allow global "use strict" (also enables 'strict').
+  "predef"      : [         // Custom globals.
+    "require"
+  ]
 }
