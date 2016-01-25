@@ -2,6 +2,7 @@
   "name": "min-karma",
   "version": "0.3.0",
   "description": "Minimal karma runner setup",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/dmitriz/min-karma"
@@ -36,6 +37,7 @@
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6"
   },
+  "devDependencies": {},
   "standard": {
     "globals": [
       "describe",
@@ -49,6 +51,5 @@
   "bugs": {
     "url": "https://github.com/dmitriz/min-karma/issues"
   },
-  "license": "MIT",
-  "devDependencies": {}
+  "homepage": "https://github.com/dmitriz/min-karma#readme"
 }
