@@ -32,7 +32,7 @@
     "runner"
   ],
   "dependencies": {
-    "gently-copy": "*",
+    "gently-copy": "0.x",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6"
