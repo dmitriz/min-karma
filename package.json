@@ -1,6 +1,6 @@
 {
   "name": "min-karma",
-  "version": "0.3.5",
+  "version": "1.0.0",
   "description": "Minimal karma runner setup",
   "license": "MIT",
   "repository": {
