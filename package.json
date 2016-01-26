@@ -32,7 +32,8 @@
     "runner"
   ],
   "dependencies": {
-    "gently-copy": "0.x",
+    "gently-copy": "^1.0.0",
+    "jasmine-core": "^2.4.1",
     "karma": "^0.13.19",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.6"
