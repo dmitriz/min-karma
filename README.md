@@ -18,9 +18,11 @@ Karma - a test runner that fits all our needs.
 - Start clean and minimal and extend as you go.
 - Add single package to your project instead of many, to get your tests up and running.
 
+
 ## Use cases
 - You have a project and want to add unit/integration/whatever tests &mdash; [install the package](#to-use-as-package-add-to-your-project).
 - You want to quickly evaluate Karma runner and play with in a clean folder &mdash; [clone or download the repository](#to-use-as-separate-repository).
+
 
 ## Features
 - Minimal functional Karma config file.
@@ -54,6 +56,7 @@ git clone https://github.com/dmitriz/min-karma
 or simply [Download this Repository](https://github.com/dmitriz/min-karma/archive/master.zip),
 unzip it and `cd min-karma-master`.
 
+
 ### Install dependencies
 ```sh
 npm install --save-dev
@@ -71,6 +74,7 @@ Run your tests:
 karma start
 ```
 Now try to edit files inside `demo` folder and see how karma is watching and updating your test results.
+
 
 ## Basic testing demo &mdash; inside `demo` folder
 ```js
