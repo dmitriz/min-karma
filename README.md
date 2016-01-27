@@ -1,7 +1,7 @@
 # min-karma 
 Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-karma) &mdash; Start testing now!
 
-[![Build Status](https://travis-ci.org/dmitriz/min-karma.svg?branch=master)](https://travis-ci.org/dmitriz/min-karma) [![bitHound Dependencies](https://www.bithound.io/github/dmitriz/min-karma/badges/dependencies.svg)](https://www.bithound.io/github/dmitriz/min-karma/master/dependencies/npm) [![bitHound Code](https://www.bithound.io/github/dmitriz/min-karma/badges/code.svg)](https://www.bithound.io/github/dmitriz/min-karma) [![Code Climate](https://codeclimate.com/github/dmitriz/min-karma/badges/gpa.svg)](https://codeclimate.com/github/dmitriz/min-karma) [![Dependency Status](https://david-dm.org/dmitriz/min-karma.svg)](https://david-dm.org/dmitriz/min-karma) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Build Status](https://travis-ci.org/dmitriz/min-karma.svg?branch=master)](https://travis-ci.org/dmitriz/min-karma) [![bitHound Dependencies](https://www.bithound.io/github/dmitriz/min-karma/badges/dependencies.svg)](https://www.bithound.io/github/dmitriz/min-karma/master/dependencies/npm) [![bitHound Code](https://www.bithound.io/github/dmitriz/min-karma/badges/code.svg)](https://www.bithound.io/github/dmitriz/min-karma) [![Code Climate](https://codeclimate.com/github/dmitriz/min-karma/badges/gpa.svg)](https://codeclimate.com/github/dmitriz/min-karma) [![Dependency Status](https://david-dm.org/dmitriz/min-karma.svg)](https://david-dm.org/dmitriz/min-karma) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -32,17 +32,17 @@ Karma - a test runner that fits all our needs.
   - Basic testing example inside `demo` folder.
   - Minimal functional configuration file `karma.conf.js`:
 
-		```js
-		module.exports = function (config) {
-		  config.set({
-		    frameworks: ['jasmine'],
-		    files: [
-		      'demo/**/*.js'
-		    ],
-		    browsers: ['Chrome']
-		  })
-		}
-		```
+    ```js
+    module.exports = function (config) {
+      config.set({
+        frameworks: ['jasmine'],
+        files: [
+          'demo/**/*.js'
+        ],
+        browsers: ['Chrome']
+      })
+    }
+    ```
 
 ## If you are new to Node
 [Download and Install Node.js](https://nodejs.org/download/), see [How do I get started with Node.js](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) for more information.
@@ -80,15 +80,15 @@ Now try to edit files inside `demo` folder and see how karma is watching and upd
 ```js
 // function to test
 function add (a, b) {
-	return a + b
+  return a + b
 }
 
 // the test
 describe('Addition', function () {
-	it('should add numbers', function () {
-		expect(add(2, 4)).toBe(6)
-		expect(add(2, 4)).not.toBe(2)
-	})
+  it('should add numbers', function () {
+    expect(add(2, 4)).toBe(6)
+    expect(add(2, 4)).not.toBe(2)
+  })
 })
 ```
 

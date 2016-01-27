@@ -39,6 +39,7 @@
     "karma-jasmine": "^0.3.6"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^1.1.5",
     "karma-firefox-launcher": "^0.1.7",
     "semantic-release": "^4.3.5"
   },
@@ -55,5 +56,10 @@
   "bugs": {
     "url": "https://github.com/dmitriz/min-karma/issues"
   },
-  "homepage": "https://github.com/dmitriz/min-karma#readme"
+  "homepage": "https://github.com/dmitriz/min-karma#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
