@@ -39,6 +39,7 @@
     "karma-jasmine": "^0.3.6"
   },
   "devDependencies": {
+    "karma-firefox-launcher": "^0.1.7",
     "semantic-release": "^4.3.5"
   },
   "standard": {
