@@ -63,11 +63,13 @@ unzip it and `cd min-karma-master`.
 npm install --save-dev
 ```
 
+
 ## To use as Package (add to your project):
 In your main project directory (should contain `package.json`):
 ```sh
 npm install min-karma --save
 ```
+
 
 ## Getting started
 Run your tests:
