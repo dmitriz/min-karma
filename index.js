@@ -1,6 +1,6 @@
 // index.js
 
-/*
+/**
  * Script to run after npm install
  *
  * Copy selected files to user's directory
