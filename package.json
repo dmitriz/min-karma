@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.5",
+    "karma-coverage": "^0.5.3",
     "karma-firefox-launcher": "^0.1.7",
     "semantic-release": "^4.3.5"
   },
