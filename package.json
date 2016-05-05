@@ -35,13 +35,14 @@
     "gently-copy": "^1.1.5",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.19",
+    "karma-firefox-launcher": "^0.1.7",
     "karma-chrome-launcher": "^0.2.2",
-    "karma-jasmine": "^0.3.6"
+    "karma-jasmine": "^1.0.2",
+    "shelljs": "^0.5.3"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.5",
-    "karma-firefox-launcher": "^0.1.7",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^4.3.5",
   },
   "standard": {
     "globals": [
