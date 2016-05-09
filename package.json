@@ -33,6 +33,7 @@
     "tdd"
   ],
   "dependencies": {
+    "chalk": "^1.1.3",
     "gently-copy": "^1.1.5",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
