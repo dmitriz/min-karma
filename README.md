@@ -28,7 +28,7 @@ Karma - a test runner that fits all our needs.
 - Minimal functional Karma config file.
 - Use as *repository* (`git clone`) or *package* (`npm install`).
 - Installs all testing packages as dependencies, no need to install them manually.
-- Includes Chrome and Firefox launchers.
+- Includes Chrome and Firefox launchers ([but many other browsers are also supported](https://karma-runner.github.io/latest/config/browsers.html)).
 - Automatically and gracefully (without overwriting) copied to your project directory via [`gently-copy`](https://github.com/dmitriz/gently-copy):
   - Basic testing example inside `demo` folder.
   - Minimal functional configuration file `karma.conf.js`:
