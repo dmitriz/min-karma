@@ -30,7 +30,8 @@
     "jasmine",
     "testing",
     "test",
-    "runner"
+    "runner",
+    "tdd"
   ],
   "dependencies": {
     "gently-copy": "^1.1.5",
