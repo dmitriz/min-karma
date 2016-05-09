@@ -10,9 +10,18 @@ module.exports = function (config) {
     // Tip. Keep your tests next to testees for better cohesion
     files: [
 
-      // load all `.js` files inside `demo`
-      'demo/**/*.js'
+      // load the code to test
+      'demo/add.js',
+      // load all test files inside `demo`
+      'demo/**/*_test.js'
     ],
+
+    preprocessors: {
+
+      // add webpack to pre-process test files loading CommonJS modules
+      'demo/**/*-module_test.js': ['webpack']
+    },
+
 
     // Browsers, currently available:
     // - Chrome
