@@ -15,14 +15,13 @@ module.exports = function (config) {
       'demo/**/*.js'
     ],
 
-    // Browsers, currently available:
-    // - Chrome
-    // - ChromeCanary
-    // - Firefox
-    // - Opera (has to be installed with `npm install karma-opera-launcher`)
-    // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
-    // - PhantomJS
-    // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
+    // Browsers available include:
+    // - Chrome and ChromeCanary (install `karma-chrome-launcher`)
+    // - Firefox (install `karma-firefox-launcher` first)
+    // - Opera  (install `karma-opera-launcher` first)
+    // - Safari (install `karma-safari-launcher` first)
+    // - IE (install `karma-ie-launcher` first)
+    // - PhantomJS  (install `karma-phantomjs-launcher`)
     browsers: ['Chrome']
   })
 }
