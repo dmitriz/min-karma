@@ -31,7 +31,7 @@ Karma - a test runner that fits all our needs.
 - Includes Chrome and Firefox launchers ([but many other browsers are also supported](https://karma-runner.github.io/latest/config/browsers.html)).
 - Automatically and gracefully (without overwriting) copied to your project directory via [`gently-copy`](https://github.com/dmitriz/gently-copy):
   - Basic testing example inside `demo` folder.
-  - Minimal functional configuration file `karma.conf.js`:
+  - Minimal functional configuration file `karma.conf.js` (your old karma config file is moved to `karma.conf_copy.js` if present):
 
     ```js
     module.exports = function (config) {
