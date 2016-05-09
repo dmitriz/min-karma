@@ -7,7 +7,7 @@ Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-k
 
 
 ## Karma
-[Karma](http://karma-runner.github.io/0.13/index.html) is a JavaScript Test Runner, one of the most popular and friendliest for beginners. The most notable advantage of Karma is *testing in real browsers*. [See this StackOverflow answer for more information about Karma usage.](http://stackoverflow.com/a/29619467/1614973)
+[Karma](http://karma-runner.github.io/0.13/index.html) is a JavaScript Test Runner, one of the most popular and friendliest for beginners. The most notable advantage of Karma is *testing in real browsers*. [See my StackOverflow answer for more information about Karma usage.](http://stackoverflow.com/a/29619467/1614973)
 
 > On the [AngularJS](https://angularjs.org/) team, we rely on testing and we always seek better tools to make our life easier. That's why we created
 Karma - a test runner that fits all our needs.
