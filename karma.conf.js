@@ -3,25 +3,17 @@
 module.exports = function (config) {
   config.set({
 
-    // frameworks available: https://npmjs.org/browse/keyword/karma-adapter
+    // Jasmine not required, use whichever framework you want 
+    // other frameworks available: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['jasmine'],
 
     // files / glob patterns to load
     // Tip. Keep your tests next to testees for better cohesion
     files: [
 
-      // load the code to test
-      'demo/add.js',
-      // load all test files inside `demo`
-      'demo/**/*_test.js'
+      // load all JavaScript files inside `demo` folder
+      'demo/**/*.js'
     ],
-
-    preprocessors: {
-
-      // add webpack to pre-process test files loading CommonJS modules
-      'demo/**/*-module_test.js': ['webpack']
-    },
-
 
     // Browsers, currently available:
     // - Chrome
