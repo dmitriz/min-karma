@@ -3,7 +3,7 @@
 module.exports = function (config) {
   config.set({
 
-    // Jasmine not required, use whichever framework you want 
+    // Jasmine not required, use whichever framework you want
     // other frameworks available: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['jasmine'],
 
