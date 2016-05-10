@@ -28,9 +28,18 @@
     "karma",
     "jasmine",
     "testing",
+    "testing framework",
     "test",
+    "testing",
     "runner",
-    "tdd"
+    "tdd",
+    "tdd testing",
+    "bdd",
+    "bdd testing",
+    "angular testing",
+    "test driven",
+    "unit",
+    "integration"
   ],
   "dependencies": {
     "gently-copy": "^1.1.5",
