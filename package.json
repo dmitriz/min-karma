@@ -33,14 +33,12 @@
     "tdd"
   ],
   "dependencies": {
-    "chalk": "^1.1.3",
     "gently-copy": "^1.1.5",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^1.0.1",
     "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2",
-    "shelljs": "^0.7.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.5"
