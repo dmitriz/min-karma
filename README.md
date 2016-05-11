@@ -11,7 +11,7 @@ Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-k
 - [Minimal Babel](https://github.com/dmitriz/min-babel)
 - [Minimal LiveReload Server](https://github.com/dmitriz/min-server)
 
-### Combinations:
+### And their combinations:
 - [Minimal Karma with Webpack](https://github.com/dmitriz/min-karma-webpack)
 - [Minimal AngularJS with Webpack](https://github.com/dmitriz/min-angular-webpack)
 
