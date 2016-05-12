@@ -1,7 +1,7 @@
 # min-karma 
 Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-karma) &mdash; Start testing now!
 
-[![npm version](https://badge.fury.io/js/min-karma.svg)](https://badge.fury.io/js/min-karma) 
+[![npm version](https://img.shields.io/npm/v/min-karma.svg)](http://npm.im/min-karma)
 [![Build Status](https://travis-ci.org/dmitriz/min-karma.svg?branch=master)](https://travis-ci.org/dmitriz/min-karma) 
 [![bitHound Code](https://www.bithound.io/github/dmitriz/min-karma/badges/code.svg)](https://www.bithound.io/github/dmitriz/min-karma) 
 [![Code Climate](https://codeclimate.com/github/dmitriz/min-karma/badges/gpa.svg)](https://codeclimate.com/github/dmitriz/min-karma) 
