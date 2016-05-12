@@ -14,6 +14,7 @@
   },
   "scripts": {
     "start": "karma start",
+    "test": "karma start",
     "pub": "npm version patch && npm publish && git push",
     "sync": "git ac && git pull --rebase && git push",
     "postinstall": "node index.js"
