@@ -12,7 +12,7 @@ module.exports = function (config) {
     files: [
 
       // load all JavaScript files inside `demo` folder
-      'demo/**/*.js'
+      'demo/**/min-karma-*.js'
     ],
 
     // Browsers available include:
