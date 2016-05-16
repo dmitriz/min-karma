@@ -7,6 +7,7 @@ Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-k
 [![Code Climate](https://codeclimate.com/github/dmitriz/min-karma/badges/gpa.svg)](https://codeclimate.com/github/dmitriz/min-karma) 
 [![Dependency Status](https://david-dm.org/dmitriz/min-karma.svg)](https://david-dm.org/dmitriz/min-karma) 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) 
+
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 [![MIT License](https://img.shields.io/npm/l/min-karma.svg?style=flat-square)](http://opensource.org/licenses/MIT) 
 [![npm downloads](https://img.shields.io/npm/dm/min-karma.svg?style=flat-square)](https://www.npmjs.com/package/min-karma)
