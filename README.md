@@ -12,7 +12,7 @@ Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-k
 [![MIT License](https://img.shields.io/npm/l/min-karma.svg?style=flat-square)](http://opensource.org/licenses/MIT) 
 [![npm downloads](https://img.shields.io/npm/dm/min-karma.svg?style=flat-square)](https://www.npmjs.com/package/min-karma)
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard) [![Greenkeeper badge](https://badges.greenkeeper.io/dmitriz/min-karma.svg)](https://greenkeeper.io/)
 
 ## Other minimal setups
 - [Minimal AngularJS](https://github.com/dmitriz/min-angular)
