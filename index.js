@@ -13,7 +13,8 @@ var gentlyCopy = require('gently-copy')
 var filesToCopy = ['karma.conf.js', 'demo']
 
 // User's local directory
-var userPath = process.env.INIT_CWD
+// Warning: This assumes the package is installed into `node_modules/<package-name>/`
+var userPath = '../../'
 
 // Moving files to user's local directory
 gentlyCopy(filesToCopy, userPath)

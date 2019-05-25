@@ -3,6 +3,7 @@ Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-k
 
 [![npm version](https://img.shields.io/npm/v/min-karma.svg)](http://npm.im/min-karma)
 [![Build Status](https://travis-ci.org/dmitriz/min-karma.svg?branch=master)](https://travis-ci.org/dmitriz/min-karma) 
+[![bitHound Code](https://www.bithound.io/github/dmitriz/min-karma/badges/code.svg)](https://www.bithound.io/github/dmitriz/min-karma) 
 [![Code Climate](https://codeclimate.com/github/dmitriz/min-karma/badges/gpa.svg)](https://codeclimate.com/github/dmitriz/min-karma) 
 [![Dependency Status](https://david-dm.org/dmitriz/min-karma.svg)](https://david-dm.org/dmitriz/min-karma) 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) 
@@ -14,7 +15,14 @@ Minimal Karma runner *Setup* and [*Package*](https://www.npmjs.com/package/min-k
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 ## Other minimal setups
+- [Minimal AngularJS](https://github.com/dmitriz/min-angular)
+- [Minimal Webpack](https://github.com/dmitriz/min-webpack)
+- [Minimal Babel](https://github.com/dmitriz/min-babel)
 - [Minimal LiveReload Server](https://github.com/dmitriz/min-server)
+
+### And their combinations:
+- [Minimal Karma with Webpack](https://github.com/dmitriz/min-karma-webpack)
+- [Minimal AngularJS with Webpack](https://github.com/dmitriz/min-angular-webpack)
 
 ## Karma
 [Karma](http://karma-runner.github.io/0.13/index.html) is a JavaScript Test Runner, one of the most popular and friendliest for beginners. The most notable advantage of Karma is *testing in real browsers*. [See my StackOverflow answer for more information about Karma usage.](http://stackoverflow.com/a/29619467/1614973)
