@@ -44,7 +44,7 @@
   ],
   "dependencies": {
     "gently-copy": "^2.3.1",
-    "jasmine-core": "^3.0.0",
+    "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^1.0.1",
     "karma-firefox-launcher": "^1.0.0",
