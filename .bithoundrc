@@ -1,9 +1,0 @@
-{
-	"dependencies": {
-    "unused-ignores": [
-			"karma",
-			"karma-jasmine",
-			"karma-chrome-launcher"
-    ]
-  }
-}
