@@ -10,3 +10,13 @@ patch:
         patched: '2019-07-03T23:19:55.214Z'
     - karma > log4js > streamroller > async > lodash:
         patched: '2019-07-03T23:19:55.214Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-14T18:21:38.144Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-14T18:21:38.144Z'
+    - karma > lodash:
+        patched: '2019-07-14T18:21:38.144Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2019-07-14T18:21:38.144Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2019-07-14T18:21:38.144Z'
