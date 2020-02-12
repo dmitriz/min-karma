@@ -9,6 +9,7 @@ node_js:
 # Configure Travis with Firefox
 # stopped working: http://karma-runner.github.io/0.13/plus/travis.html
 # fixed in: https://stackoverflow.com/a/57517901/1614973
+# original ref: https://docs.travis-ci.com/user/gui-and-headless-browsers/#using-services-xvfb
 services:
   - xvfb
 script: karma start karma.conf.js --single-run --browsers Firefox
