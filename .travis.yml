@@ -8,7 +8,9 @@ node_js:
   - 'stable'
 # Configure Travis with Firefox
 # http://karma-runner.github.io/0.13/plus/travis.html
+services:
+  - xvfb
 script: karma start karma.conf.js --single-run --browsers Firefox
 before_script:
   - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+  # - sh -e /etc/init.d/xvfb start
