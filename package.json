@@ -18,7 +18,7 @@
     "postpublish": "git push origin --all; git push origin --tags",
     "test": "karma start",
     "pub": "npm version patch && npm publish && git push",
-    "sync": "git ac && git pull --rebase && git push",
+    "sync": "git ac; git pull && git push",
     "postinstall": "node index.js",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
