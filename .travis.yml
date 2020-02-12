@@ -7,7 +7,8 @@ notifications:
 node_js:
   - 'stable'
 # Configure Travis with Firefox
-# http://karma-runner.github.io/0.13/plus/travis.html
+# stopped working: http://karma-runner.github.io/0.13/plus/travis.html
+# fixed in: https://stackoverflow.com/a/57517901/1614973
 services:
   - xvfb
 script: karma start karma.conf.js --single-run --browsers Firefox
