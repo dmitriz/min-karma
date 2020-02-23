@@ -10,3 +10,8 @@ patch:
         patched: '2019-07-03T23:19:55.214Z'
     - karma > log4js > streamroller > async > lodash:
         patched: '2019-07-03T23:19:55.214Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-03T23:19:55.171Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-03T23:19:55.171Z'

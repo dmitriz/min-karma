@@ -6,10 +6,13 @@ notifications:
   email: true
 node_js:
   - 'stable'
-  - '10'
 # Configure Travis with Firefox
-# http://karma-runner.github.io/0.13/plus/travis.html
+# stopped working: http://karma-runner.github.io/0.13/plus/travis.html
+# fixed in: https://stackoverflow.com/a/57517901/1614973
+# original ref: https://docs.travis-ci.com/user/gui-and-headless-browsers/#using-services-xvfb
+services:
+  - xvfb
 script: karma start karma.conf.js --single-run --browsers Firefox
 before_script:
   - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
+  # - sh -e /etc/init.d/xvfb start
