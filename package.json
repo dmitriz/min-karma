@@ -18,7 +18,7 @@
     "postpublish": "git push origin --all; git push origin --tags",
     "test": "karma start",
     "pub": "npm version patch && npm publish && git push",
-    "sync": "git ac && git pull --rebase && git push",
+    "sync": "git ac; git pull && git push",
     "postinstall": "node index.js",
     "snyk-protect": "snyk protect",
     "prepublish": "npm run snyk-protect"
@@ -49,14 +49,14 @@
   "dependencies": {
     "gently-copy": "^3.2.0",
     "jasmine-core": "^3.1.0",
-    "karma": "^4.2.0",
+    "karma": "^4.3.0",
     "karma-chrome-launcher": "^3.0.0",
     "karma-firefox-launcher": "^1.2.0",
-    "karma-jasmine": "^2.0.0",
-    "snyk": "^1.199.2"
+    "karma-jasmine": "^3.0.0",
+    "snyk": "^1.296.0"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "2.1.0"
+    "cz-conventional-changelog": "3.1.0"
   },
   "standard": {
     "globals": [
