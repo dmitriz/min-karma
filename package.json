@@ -53,7 +53,7 @@
     "karma": "^4.3.0",
     "karma-firefox-launcher": "^1.2.0",
     "karma-jasmine": "^3.0.0",
-    "snyk": "^1.296.0"
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.1.0"
