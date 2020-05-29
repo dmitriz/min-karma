@@ -52,7 +52,7 @@
     "jasmine-core": "^3.5.0",
     "karma": "^4.3.0",
     "karma-firefox-launcher": "^1.2.0",
-    "karma-jasmine": "^3.0.0",
+    "karma-jasmine": "^3.2.0",
     "snyk": "^1.296.0"
   },
   "devDependencies": {
